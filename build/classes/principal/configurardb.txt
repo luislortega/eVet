@@ -1,0 +1,9 @@
+databaseclass=servicios.Conexion_mySQL
+jdbc=jdbc:mysql://
+driver=com.mysql.jdbc.Driver
+host=petlove.com.mx
+database=petloveapp
+username=usuarioAdds
+password=142578Luis
+options=charSet=LATIN1
+mostrarpropierties=si

@@ -1,0 +1,83 @@
+Descripcion de el proyecto:
+-Este proyecto viene creado con el fin de crear un sistema de control animal para regular el abandono/perdida
+y sacrifio de perros, con un sistema que estara conformado en tres etapas: 
+  
+  *Desarrollo de App para escritorio: (NetBeans - JAVA - MySql) 
+         Con esta app se generaran los codigos QR que se imprimiran en la placa del perro, con este codigo 
+         se generara el usuario y contraseña del dueño (para logearse en la plataforma) y poder recibir
+         mensajes de quien encuentre a su perro mediante la APP.
+
+               **NOTA: a esta aplicacion solo tendran acceso personas que sean verificadas por el gobierno 
+               para utilizarlo, por lo que habria cierta restriccion en lo que vendria siendo el acceso. 
+               a cada administrador de cada centro de control animal se le otorgara una cuenta y contraseña
+               asi el podra crear los sub-usuarios que iran registrando a los animales en la base de datos,
+               ellos podrian hacerlo en caso de que solo fuera uno. 
+
+  *Desarollo Movil: (Android Studio - JAVA - SQLite)
+         Con una app movil se leera el codigo QR y se buscara en una base de datos, nombre y foto de el perro, 
+         numero de el dueño, (*) direccion del dueño (*) , su cartilla de vacunas y la posibilidad de contactar
+         con el dueño desde la plataforma, se le podra enviar un mensaje desde la aplicacion para recibirlo en 
+         la bandeja del usuario en la plataforma.
+
+  *Desarollo web: (HTML5 - CSS - PHP - MySql)
+         En la plataforma web habra un sistema donde se puedan logear, los dueños 
+_____________________________________________________________________________________________________________
+Fecha: 04/03/17
+Captura No. 1
+Lider de proyecto: Luis Gerardo Leon Ortega
+Nombre de el proyecto: Buscam 
+
+versiones ACTUAL:   
+                    - 0.04.00 
+                    - 0.03.00
+                       - 0.02.00
+                       - 0.01.00
+                       - 0.00.00
+
+Nota:
+ * Hasta ahora solo se ha desarrollado lo que vendria siendo el generador QR(0.00.01), este programa sera instalado
+ * en toda las computadoras de los veterinarios encargados de registrar a los perros en las bases de datos
+ * de el gobierno.
+ * este se encuentra en una version 0.04.09 y no ha presentado fallos en los codigos, son perfectamente 
+ * leidos por los decodificadores de paginas online. 
+
+_____________________________________________________________________________________________________________
+Fecha: 08/03/17
+Captura No. 2
+Lider de proyecto: Luis Gerardo Leon Ortega
+Nombre de el proyecto: Petlover (Nombre dado por Vanesa Ojeda, pero no ha aportado nada al proyecto)
+el nombre es totalmente libre.
+
+versiones ACTUAL:
+                 - 0.05.00
+                    - 0.04.00 
+                    - 0.03.00
+                       - 0.02.00
+                       - 0.01.00
+                       - 0.00.00
+
+Nota:
+ * en la version - 0.05.00 se creo lo que vendria siendo el panel de login donde se logearan los usuarios.
+ * se creo el panel que se utilizara para administrar la vacunas y los registros de los perros
+ * el panelQR(0.01.00) se volvio obsoleto, y lo mejore para que tenga campos y botones para guardar la informacion
+ * se creo la estructura de la base de datos.
+ * se creo la base de datos nombrada (petlover) tambien se le añadio usuario y password a mi base de datos.
+________________________________________________________________________________________________________________
+Fecha: 12/03/17
+Captura No. 3
+Lider de proyecto: Luis Gerardo Leon Ortega
+Nombre de el proyecto: Petlover 
+
+versiones ACTUAL:
+                 - 0.05.01
+                 - 0.05.00
+                    - 0.04.00 
+                    - 0.03.00
+                       - 0.02.00
+                       - 0.01.00
+                       - 0.00.00
+
+Nota:
+ * en la version que se le añadio: 0.05.01 se crean los diferentes packages que contendran las clases del programa
+ * se crearon clases para crear conexiones con la base de datos, y se generaron las dos primeras bases de datos
+   que son: usuarios y animales

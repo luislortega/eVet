@@ -1,0 +1,31 @@
+Generardor QR v. 0.00.00:
+
+ •- Se implementa el JAR necesario para poder generar los codigos QR.
+ •- Se crea el codigo necesario para generar un codigo QR que se guarda en el disco C.
+ •- Se tiene que ingresar en un cuadro de texto el codigo QR que genera el programa (Se tiene que corregir). 
+ •- Se genera un diseño conforme a lo que hasta esa version se habia hecho.
+
+Generador QR v. 0.01.00
+ 
+ •- Se modifico la ubicacion donde se guardaban los codigos QR y ahora puedes guardarlo en una carpeta del 
+    escritorio (Para accesar rapido).
+ •- Se abre la carpeta donde se encuentran los codigos QR automaticamente
+ •- Se elimino el cuadro de texto y se implemento un sistema de encriptacion/usuario, para buscar la 
+    informacion completa mediante ese simple
+    codigo en la base de datos que mas adelante se creara.
+ •- Se cambio el fondo a un color azul llamativo y que canse menos la vista.
+
+Generador QR v. 0.02.00
+ 
+ •- Se comprimio el cuadro en algo mas compacto y pequeño, donde hay un boton que genera automaticamente
+    un usuario/encriptado y lo convierte en codigo QR. 
+ •- Se implemento un cuadro que pone el ultimo QR creado para que lo puedas buscar dentro de la carpeta
+    mas facilmente.
+ •- Se añadio un cuadro "Logs" donde se muestra los numeros de QR's creados en ese momento (Mientras 
+    no se haya cerrado el cuadro generador)
+
+Generador QR v. 0.03.00
+ 
+ •- Se quito el diseño ambiguo que tenia, sin campos y solo generaba QR, ahora esta integrado al panel
+    de registros, por ahora se utiliza un JAR llamado Barcode y genera QR con el texto encima: Trial 
+    (Prueba) mas adelante se buscara como modificar eso.
